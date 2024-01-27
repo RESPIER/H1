@@ -20,4 +20,4 @@ G1 = Group(enchant="Fire", warior=20, place="Mountain")
 G2 = Groupp(name="Yura", house=13, brother="2 brother")
 
 print(G2.brother)
-
+print(G2.item)

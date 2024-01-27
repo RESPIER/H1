@@ -7,17 +7,17 @@ class Group:
         self.warior = warior
         self.enchant = enchant
 class Groupp:
-    sword = "dimond sword"
-    armor = "iron armor"
-    group = "orck"
+    skin = "Aura"
+    item = "tea"
+    planet = "Mars"
 
-    def __init__(self, enchant, warior, place):
-        self.place = place
-        self.warior = warior
-        self.enchant = enchant
+    def __init__(self, name, house, brother):
+        self.name = name
+        self.house = house
+        self.brother = brother
 
 G1 = Group(enchant="Fire", warior=20, place="Mountain")
-G2 = Groupp(enchant="Froze", warior=15, place="Near the oceon")
+G2 = Groupp(name="Yura", house=13, brother="2 brother")
 
-
+print(G2.brother)
 
